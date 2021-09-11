@@ -10,8 +10,6 @@ usethis::use_git_config(# Seu nome
 # Criar o Personal Access Token
 usethis::create_github_token()
 
-luis
-
 #Abrir r environ
 usethis::edit_r_environ()
 

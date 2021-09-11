@@ -16,13 +16,16 @@ usethis::edit_r_environ()
 #Checar a configura??o
 usethis::git_sitrep()
 
-# Criar um projeto pela opção New Project ou:
-
+# Criar um projeto
+##pela opção New Project
+##Pela console do R
 usethis::create_project(~"nome do projeto")
 
-# Linkar o projeto ao GitHub
+# Criar o repositorio do projeto em GitHub
 usethis::use_git()
 usethis::use_github()
 
+#Criar um repositorio desde R
+usethis::create_from_github()
 
 
